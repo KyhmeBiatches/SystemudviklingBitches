@@ -4,15 +4,16 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>280</y>
+      <x>440</x>
+      <y>190</y>
       <w>100</w>
-      <h>100</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Activity
 --
 ID
 Title
+Tags
 Description
 Event
 </panel_attributes>
@@ -21,8 +22,8 @@ Event
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>500</y>
+      <x>430</x>
+      <y>410</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -38,8 +39,8 @@ Attendance</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>310</x>
-      <y>280</y>
+      <x>210</x>
+      <y>190</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
@@ -53,8 +54,8 @@ Desctiption</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>100</y>
+      <x>430</x>
+      <y>10</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
@@ -69,8 +70,8 @@ Note
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>90</y>
+      <x>660</x>
+      <y>0</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -86,8 +87,8 @@ Email</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
-      <y>510</y>
+      <x>650</x>
+      <y>420</y>
       <w>110</w>
       <h>60</h>
     </coordinates>
@@ -99,8 +100,8 @@ AttendanceList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>330</y>
+      <x>300</x>
+      <y>240</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -111,21 +112,21 @@ m2=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>370</y>
+      <x>480</x>
+      <y>300</y>
       <w>50</w>
-      <h>150</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>
 m1=1
 m2=0..n</panel_attributes>
-    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>530</y>
+      <x>520</x>
+      <y>440</y>
       <w>150</w>
       <h>40</h>
     </coordinates>
@@ -136,8 +137,8 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>190</y>
+      <x>700</x>
+      <y>100</y>
       <w>50</w>
       <h>340</h>
     </coordinates>
@@ -149,25 +150,25 @@ m2=0..n
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>170</y>
+      <x>470</x>
+      <y>80</y>
       <w>50</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>m1=0..n
 m2=1</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>140</y>
+      <x>520</x>
+      <y>50</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>m1=1
 m2=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
