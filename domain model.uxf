@@ -5,25 +5,22 @@
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>190</y>
+      <y>260</y>
       <w>100</w>
-      <h>120</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Activity
 --
-ID
 Title
 Tags
-Description
-Event
-</panel_attributes>
+Description</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>430</x>
-      <y>410</y>
+      <y>480</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -32,7 +29,6 @@ Event
 Time
 Date
 Lecturer
-Location
 Attendance</panel_attributes>
     <additional_attributes/>
   </element>
@@ -40,7 +36,7 @@ Attendance</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>210</x>
-      <y>190</y>
+      <y>260</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
@@ -54,15 +50,14 @@ Desctiption</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>430</x>
-      <y>10</y>
+      <x>650</x>
+      <y>490</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>Evaluation
 --
-User
-Activity
+Rating
 Note
 </panel_attributes>
     <additional_attributes/>
@@ -71,13 +66,12 @@ Note
     <id>UMLClass</id>
     <coordinates>
       <x>660</x>
-      <y>0</y>
+      <y>260</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>User
 --
-ID
 fName
 lName
 Birthday
@@ -85,23 +79,10 @@ Email</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>650</x>
-      <y>420</y>
-      <w>110</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Attendance
---
-AttendanceList</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>300</x>
-      <y>240</y>
+      <y>310</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -113,24 +94,24 @@ m2=0..1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>480</x>
-      <y>300</y>
+      <y>340</y>
       <w>50</w>
-      <h>130</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>
 m1=1
 m2=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>440</y>
+      <y>510</y>
       <w>150</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>m1=1
+    <panel_attributes>m1=0..n
 m2=1</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -138,37 +119,68 @@ m2=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>700</x>
-      <y>100</y>
+      <y>360</y>
       <w>50</w>
-      <h>340</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>m1=0..n
-m2=0..n
+m2=1
 </panel_attributes>
-    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>80</y>
-      <w>50</w>
-      <h>130</h>
+      <x>530</x>
+      <y>300</y>
+      <w>150</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>m1=0..n
-m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+m2=0..n
+</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>50</y>
-      <w>160</w>
+      <y>360</y>
+      <w>170</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=0..n
+</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>480</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Location
+--
+Name
+Address
+Zipcode
+City
+ </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>510</y>
+      <w>150</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>m1=1
-m2=0..n</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+m2=1</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
