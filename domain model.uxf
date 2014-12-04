@@ -21,7 +21,7 @@ Description</panel_attributes>
     <coordinates>
       <x>430</x>
       <y>480</y>
-      <w>100</w>
+      <w>110</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>Event
@@ -29,7 +29,7 @@ Description</panel_attributes>
 Time
 Date
 Lecturer
-Attendance</panel_attributes>
+AttendanceList</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -38,11 +38,10 @@ Attendance</panel_attributes>
       <x>210</x>
       <y>260</y>
       <w>100</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>News
 --
-ID
 Title
 Desctiption</panel_attributes>
     <additional_attributes/>
@@ -106,14 +105,14 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
+      <x>530</x>
       <y>510</y>
-      <w>150</w>
+      <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>m1=0..n
 m2=1</panel_attributes>
-    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -144,7 +143,7 @@ m2=0..n
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
+      <x>530</x>
       <y>360</y>
       <w>170</w>
       <h>160</h>
@@ -152,7 +151,7 @@ m2=0..n
     <panel_attributes>m1=0..n
 m2=0..n
 </panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
